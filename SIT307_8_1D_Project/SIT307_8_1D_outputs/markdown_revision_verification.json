@@ -1,0 +1,12 @@
+{
+  "edit_scope": "First-person Markdown rewrite and two interpretation cells; code and saved outputs preserved.",
+  "original_notebook_sha256": "aa82df500fdd05e3a47004a99049d1c3561ce69f759b3cee384e85d164a9330f",
+  "updated_notebook_sha256": "a062415caf7b72bdb9a7357e0c7e074aefd3a37001de08cf556d167c88909700",
+  "code_cells_unchanged": true,
+  "code_cell_count": 19,
+  "saved_error_output_count": 0,
+  "markdown_cell_count": 18,
+  "models_retrained_for_language_edit": false,
+  "app_files_match_existing_verified_export": true,
+  "app_sources_match_notebook_export_strings": true
+}

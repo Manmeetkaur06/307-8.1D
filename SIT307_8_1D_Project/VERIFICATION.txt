@@ -1,0 +1,26 @@
+Verification completed 4 October 2026
+
+All 19 code cells were run sequentially in a fresh IPython process. All rich
+outputs were captured into the submitted notebook, including eight figures.
+There were no cell error outputs. A socket-based Jupyter kernel was unavailable
+in the execution environment, so this was not an interactive Jupyter GUI run.
+
+All five model and baseline pooled out-of-fold metric rows reproduced the
+previous measured results exactly. The input CSV is unchanged. Thirteen
+inference checks cover model reloading, unknown land, valid zero parking,
+invalid values, empty/missing input and compatibility with older CSV columns.
+
+Seven further checks use Streamlit AppTest and the shared CSV inference
+function. They cover the simplified controls, the A$947,325 single-property
+example, missing-land messages, batch outputs of A$1,685,714 and A$593,857,
+legacy CSV compatibility, and agreement between single-row and batch inference.
+A live browser session was not rerun here; the supplied screenshots show the
+user's earlier local interface. The final interface is verified headlessly.
+
+To repeat the app checks after installing dependencies, run:
+python tests/verify_app.py
+
+Machine-readable records:
+SIT307_8_1D_outputs/execution_verification.json
+SIT307_8_1D_outputs/inference_checks.json
+SIT307_8_1D_outputs/app_verification.json

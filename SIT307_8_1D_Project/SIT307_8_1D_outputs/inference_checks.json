@@ -1,0 +1,17 @@
+{
+  "checks_passed": [
+    "model reload agreement",
+    "five-input batch prediction",
+    "missing-land imputation",
+    "zero parking accepted",
+    "unsupported suburb rejected",
+    "negative bedroom count rejected",
+    "fractional bedroom count rejected",
+    "missing bedroom count rejected",
+    "non-finite land rejected",
+    "non-positive land rejected",
+    "missing required column rejected",
+    "empty input rejected",
+    "unused legacy fields do not affect predictions"
+  ]
+}

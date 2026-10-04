@@ -1,0 +1,4 @@
+suburb,properties,median_price_AUD,mean_price_AUD,minimum_price_AUD,maximum_price_AUD,first_sale,last_sale,missing_land
+Campbelltown,35,965000.0,996301.5714285715,510000,1750000,2026-05-06,2026-09-24,6
+Mosman,35,5700000.0,7719085.714285715,3200000,23000000,2025-06-06,2026-09-16,1
+Parramatta,35,1672000.0,1721500.0,830000,3502000,2024-08-11,2026-06-27,1

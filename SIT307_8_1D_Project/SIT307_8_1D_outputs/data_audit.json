@@ -1,0 +1,18 @@
+{
+  "n_rows": 105,
+  "suburb_counts": {
+    "Campbelltown": 35,
+    "Mosman": 35,
+    "Parramatta": 35
+  },
+  "input_sha256": "8b4e23912b903f616c830bd1e55d764facc0a0ed9cb2c0f7a9b7f0593d37563b",
+  "raw_missing_land": 7,
+  "model_missing_land": 8,
+  "parking_values_spot_checked": 9,
+  "land_conflict_rows": [
+    59
+  ],
+  "date_min": "2024-08-11",
+  "date_max": "2026-09-24",
+  "source_scope": "Structural audit of all rows; partial external source checks only."
+}

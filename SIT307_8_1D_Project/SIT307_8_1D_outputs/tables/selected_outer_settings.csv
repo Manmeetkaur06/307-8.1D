@@ -1,0 +1,21 @@
+model,fold,feature_set,model_settings
+Ridge regression,1,basic,Ridge(alpha=0.1)
+Ridge regression,2,basic,Ridge(alpha=0.1)
+Ridge regression,3,basic,Ridge(alpha=0.1)
+Ridge regression,4,basic,Ridge(alpha=0.1)
+Ridge regression,5,basic,Ridge(alpha=0.1)
+K-nearest neighbours,1,basic,KNeighborsRegressor(n_neighbors=3)
+K-nearest neighbours,2,basic,"KNeighborsRegressor(n_neighbors=9, weights='distance')"
+K-nearest neighbours,3,basic,"KNeighborsRegressor(n_neighbors=3, weights='distance')"
+K-nearest neighbours,4,basic,KNeighborsRegressor(n_neighbors=3)
+K-nearest neighbours,5,basic,"KNeighborsRegressor(n_neighbors=3, weights='distance')"
+Random forest,1,basic,"RandomForestRegressor(min_samples_leaf=4, n_estimators=120, n_jobs=1,
+                      random_state=42)"
+Random forest,2,basic,"RandomForestRegressor(min_samples_leaf=4, n_estimators=120, n_jobs=1,
+                      random_state=42)"
+Random forest,3,engineered,"RandomForestRegressor(min_samples_leaf=2, n_estimators=120, n_jobs=1,
+                      random_state=42)"
+Random forest,4,basic,"RandomForestRegressor(max_depth=4, min_samples_leaf=2, n_estimators=120,
+                      n_jobs=1, random_state=42)"
+Random forest,5,basic,"RandomForestRegressor(min_samples_leaf=4, n_estimators=120, n_jobs=1,
+                      random_state=42)"

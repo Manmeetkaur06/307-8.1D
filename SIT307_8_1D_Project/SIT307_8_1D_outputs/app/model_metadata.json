@@ -1,0 +1,66 @@
+{
+  "model_name": "Ridge regression",
+  "n_properties": 105,
+  "suburbs": [
+    "Campbelltown",
+    "Mosman",
+    "Parramatta"
+  ],
+  "date_min": "2024-08-11",
+  "date_max": "2026-09-24",
+  "feature_set": "basic",
+  "best_parameters": {
+    "regressor__features__feature_set": "basic",
+    "regressor__model__alpha": 0.1
+  },
+  "raw_features": [
+    "suburb",
+    "bedrooms",
+    "bathrooms",
+    "parking",
+    "land_size_m2",
+    "sale_date",
+    "unit_style_address"
+  ],
+  "predictive_inputs": [
+    "suburb",
+    "bedrooms",
+    "bathrooms",
+    "parking",
+    "land_size_m2"
+  ],
+  "cv_mae_aud": 897806.8185344415,
+  "cv_rmse_aud": 2306068.4002340375,
+  "cv_r2": 0.7059405250678801,
+  "numeric_ranges": {
+    "bedrooms": {
+      "min": 2.0,
+      "max": 7.0
+    },
+    "bathrooms": {
+      "min": 1.0,
+      "max": 5.0
+    },
+    "parking": {
+      "min": 0.0,
+      "max": 5.0
+    },
+    "land_size_m2": {
+      "min": 76.0,
+      "max": 1201.0
+    }
+  },
+  "seed": 42,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3"
+  },
+  "input_sha256": "8b4e23912b903f616c830bd1e55d764facc0a0ed9cb2c0f7a9b7f0593d37563b",
+  "created_utc": "2026-10-04T06:15:33.383595+00:00",
+  "validation": "5 outer folds; 3 inner folds; stratification by suburb; family selected using outer MAE",
+  "source_limit": "Partial source verification; one land conflict withheld; raw CSV preserved"
+}

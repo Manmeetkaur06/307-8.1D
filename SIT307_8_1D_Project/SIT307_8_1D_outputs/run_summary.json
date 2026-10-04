@@ -1,0 +1,43 @@
+{
+  "model": "Ridge regression",
+  "input_sha256": "8b4e23912b903f616c830bd1e55d764facc0a0ed9cb2c0f7a9b7f0593d37563b",
+  "n_rows": 105,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "reported_metrics": {
+    "MAE_AUD": 897806.8185344415,
+    "RMSE_AUD": 2306068.4002340375,
+    "R2": 0.7059405250678801
+  },
+  "best_final_parameters": {
+    "regressor__features__feature_set": "basic",
+    "regressor__model__alpha": 0.1
+  },
+  "source_audit": {
+    "n_rows": 105,
+    "suburb_counts": {
+      "Campbelltown": 35,
+      "Mosman": 35,
+      "Parramatta": 35
+    },
+    "input_sha256": "8b4e23912b903f616c830bd1e55d764facc0a0ed9cb2c0f7a9b7f0593d37563b",
+    "raw_missing_land": 7,
+    "model_missing_land": 8,
+    "parking_values_spot_checked": 9,
+    "land_conflict_rows": [
+      59
+    ],
+    "date_min": "2024-08-11",
+    "date_max": "2026-09-24",
+    "source_scope": "Structural audit of all rows; partial external source checks only."
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3"
+  },
+  "all_oof_predictions_present": true
+}

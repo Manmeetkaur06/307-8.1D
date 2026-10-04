@@ -1,0 +1,17 @@
+{
+  "method": "Streamlit AppTest plus the shared CSV inference function",
+  "streamlit_version": "1.65.0",
+  "checks_passed": [
+    "app starts with five predictive controls and no unused date or address controls",
+    "single-property example agrees with supplied screenshot at A$947,325",
+    "single-property missing land is accepted and explained",
+    "five-column CSV examples agree with supplied batch screenshots",
+    "batch missing land triggers the imputation message",
+    "legacy seven-column CSV gives identical predictions",
+    "single-row and batch inference agree"
+  ],
+  "example_predictions_aud": [
+    1685714.0,
+    593857.0
+  ]
+}

@@ -1,0 +1,1 @@
+Original user-supplied screenshots. Captured before the final removal of unused date and address-style controls. The examples are reproduced by the final code. Report cropping changes display only; these source PNGs are unchanged.

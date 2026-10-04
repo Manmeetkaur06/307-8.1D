@@ -1,0 +1,3 @@
+suburb,bedrooms,bathrooms,parking,land_size_m2,predicted_sale_price_aud
+Parramatta,3,2,1,500.0,1685714.0
+Campbelltown,3,1,1,,593857.0
